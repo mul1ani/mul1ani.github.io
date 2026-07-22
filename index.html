@@ -1,10 +1,66 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My First GitHub Site</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-    <p>Welcome to my new website hosted on GitHub Pages.</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <a href="#" class="logo">YourName</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Hi, I'm <span class="highlight">Your Name</span></h1>
+    <p>I'm a [Developer / Data Analyst / Student / Designer] passionate about building great projects.</p>
+    <a href="#projects" class="btn">View My Work</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+      Brief introduction about your background, skills, and what you are currently studying or working on.
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="project-grid">
+
+      <!-- Project Card 1 -->
+      <div class="project-card">
+        <h3>Assignment & Optimization Toolkit</h3>
+        <p>Formulated Integer Programs, Game Theory duals, and KKT conditions solved using Python's SciPy library.</p>
+        <a href="https://github.com/yourusername/project-repo" target="_blank" class="project-link">View Code &rarr;</a>
+      </div>
+
+      <!-- Project Card 2 -->
+      <div class="project-card">
+        <h3>Project Title 2</h3>
+        <p>Short description of what you built, technologies used (e.g., Python, React, SQL), and the outcome.</p>
+        <a href="#" class="project-link">View Demo &rarr;</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h2>Get in Touch</h2>
+    <p>Feel free to reach out if you'd like to collaborate or chat!</p>
+    <a href="mailto:your.email@example.com" class="btn">Email Me</a>
+  </section>
+
+</body>
 </html>
